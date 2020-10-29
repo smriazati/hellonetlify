@@ -8,41 +8,20 @@
 import gql from "graphql-tag";
 export default {
   apollo: {
-    favoriteGames: {
+    siteData: {
       query: gql`
-        query MyQuery {
-          favoriteGames {
-            id
-            image
-            name
-            rating
-            gameUser {
-              id
-              name
-              profileImg
-            }
+        query getVids {
+          threeByThirteenProject {
+            videoId
+            videoUrl
+            title
+            img
           }
         }
       `,
       update(data) {
-        return data.favoriteGames;
+        return data.threeByThirteenProject;
       }
-    }
-  },
-  methods: {
-    remove(game) {
-      this.$apollo.mutate({
-        mutation: gql`
-          mutation removeMovie($id: Int!) {
-            delete_favoriteGames(where: { id: { _eq: $id } }) {
-              affected_rows
-            }
-          }
-        `,
-        variables: {
-          id: favoriteGames.id
-        }
-      });
     }
   }
 };
