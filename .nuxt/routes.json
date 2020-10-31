@@ -1,5 +1,12 @@
 [
   {
+    "name": "dataTest",
+    "path": "/dataTest",
+    "component": "/Users/sarah/Sites/netlify-experiment/pages/dataTest.vue",
+    "chunkName": "pages/dataTest",
+    "_name": "_8c8914ac"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/sarah/Sites/netlify-experiment/pages/index.vue",

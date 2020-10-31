@@ -1,7 +1,7 @@
 {
-  "name": "netlify-experiment",
+  "name": "sarahteachescodeart",
   "version": "1.0.0",
-  "description": " ",
+  "description": "",
   "author": "sarah riazati",
   "private": true,
   "scripts": {
@@ -13,7 +13,10 @@
   "dependencies": {
     "@nuxtjs/apollo": "^4.0.1-rc.4",
     "graphql-tag": "^2.11.0",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^8.0.2",
+    "vue-vimeo-player": "^0.1.0"
   },
   "devDependencies": {}
 }
