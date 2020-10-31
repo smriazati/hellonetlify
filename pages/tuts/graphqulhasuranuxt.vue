@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <section class="data">
+    <section class="tut">
 
         <h1 v-if="tut.name">{{ tut.name}}</h1>
         <p v-if="tut.url"><a :href="tut.url" target="_blank">Tutorial</a></p>
