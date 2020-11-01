@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <section class="tut">
+    <section v-if="tut" class="tut">
 
         <h1 v-if="tut.name">{{ tut.name}}</h1>
         <p v-if="tut.url"><a :href="tut.url" target="_blank">Tutorial</a></p>
@@ -38,7 +38,8 @@ export default {
         tut: {
             name: 'GraphQL with Hasura and Nuxt',
             url: 'https://www.netlify.com/blog/2020/10/26/graphql-with-hasura-and-nuxt/',
-            repo: 'https://github.com/sdras/favegame'
+            repo: 'https://github.com/sdras/favegame',
+            date: '10/29/20'
         }
     }
   }

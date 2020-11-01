@@ -1,7 +1,7 @@
 {
   "name": "sarahteachescodeart",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sarah Riazati code experiments, tutorials, demos, and original contet",
   "author": "sarah riazati",
   "private": true,
   "scripts": {
@@ -14,6 +14,7 @@
     "@nuxtjs/apollo": "^4.0.1-rc.4",
     "graphql-tag": "^2.11.0",
     "nuxt": "^2.0.0",
+    "nuxt-vuex-router-sync": "0.0.3",
     "sass": "^1.26.10",
     "sass-loader": "^8.0.2",
     "vue-vimeo-player": "^0.1.0"

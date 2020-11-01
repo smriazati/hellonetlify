@@ -150,7 +150,7 @@ export async function setContext (app, context) {
       payload: context.payload,
       error: context.error,
       base: '/',
-      env: {}
+      env: {"strapiApi":"http://proxy.sarahteachescode.art"}
     }
     // Only set once
     if (!process.static && context.req) {

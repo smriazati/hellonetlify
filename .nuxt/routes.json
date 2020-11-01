@@ -1,10 +1,38 @@
 [
   {
-    "name": "dataTest",
-    "path": "/dataTest",
-    "component": "/Users/sarah/Sites/netlify-experiment/pages/dataTest.vue",
-    "chunkName": "pages/dataTest",
-    "_name": "_8c8914ac"
+    "name": "learning",
+    "path": "/learning",
+    "component": "/Users/sarah/Sites/netlify-experiment/pages/learning.vue",
+    "chunkName": "pages/learning",
+    "_name": "_592b746c"
+  },
+  {
+    "name": "sketches",
+    "path": "/sketches",
+    "component": "/Users/sarah/Sites/netlify-experiment/pages/sketches.vue",
+    "chunkName": "pages/sketches",
+    "_name": "_4bcc20a8"
+  },
+  {
+    "name": "tuts-graphqulhasuranuxt",
+    "path": "/tuts/graphqulhasuranuxt",
+    "component": "/Users/sarah/Sites/netlify-experiment/pages/tuts/graphqulhasuranuxt.vue",
+    "chunkName": "pages/tuts/graphqulhasuranuxt",
+    "_name": "_787d6198"
+  },
+  {
+    "name": "tuts-gsap3express",
+    "path": "/tuts/gsap3express",
+    "component": "/Users/sarah/Sites/netlify-experiment/pages/tuts/gsap3express.vue",
+    "chunkName": "pages/tuts/gsap3express",
+    "_name": "_164bdbee"
+  },
+  {
+    "name": "tuts-template",
+    "path": "/tuts/template",
+    "component": "/Users/sarah/Sites/netlify-experiment/pages/tuts/template.vue",
+    "chunkName": "pages/tuts/template",
+    "_name": "_702ea1ea"
   },
   {
     "name": "index",
