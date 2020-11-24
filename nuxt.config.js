@@ -28,11 +28,6 @@ export default {
   */
   plugins: [
     `~/plugins/getGames.server.js`,
-    {
-      src: '~/plugins/geocoding.js',
-      ssr: true
-    },
-    '~/plugins/firebase.js',
     '~/plugins/axios.js'
   ],
   /*
@@ -52,9 +47,6 @@ export default {
   axios: {
     proxy: true // Can be also an object with default options
   },
-  proxy: {
-    '/api': { target: 'https://us-central1-sarah-teaches-code-art-46874.cloudfunctions.net/geocodeAddressAndSave', pathRewrite: {'^/api/': '/'} }
-  },
   apollo: {
     clientConfigs: {
       default: {
@@ -66,7 +58,6 @@ export default {
     strapiApi: process.env.STRAPI_ENDPOINT,
   },
   privateRuntimeConfig: {
-    googleApiKey: process.env.GOOGLE_API_KEY,
   },
   /*
    ** Build configuration
