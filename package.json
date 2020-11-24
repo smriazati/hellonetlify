@@ -12,12 +12,19 @@
   },
   "dependencies": {
     "@nuxtjs/apollo": "^4.0.1-rc.4",
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/proxy": "^2.0.1",
+    "chart.js": "^2.9.4",
+    "firebase": "^8.0.0",
     "graphql-tag": "^2.11.0",
     "nuxt": "^2.0.0",
     "nuxt-vuex-router-sync": "0.0.3",
     "sass": "^1.26.10",
     "sass-loader": "^8.0.2",
-    "vue-vimeo-player": "^0.1.0"
+    "vue-chartjs": "^3.5.1",
+    "vue-vimeo-player": "^0.1.0",
+    "vue2-google-maps": "^0.10.7"
   },
   "devDependencies": {}
 }

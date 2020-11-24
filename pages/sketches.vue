@@ -48,12 +48,12 @@ export default {
   },
   computed: {
       api() {
-          return process.env.strapiApi;
+          return this.$config.strapiApi;
       }
   },
   async mounted () {
     try {
-      const response = await fetch(`${process.env.strapiApi}/sarah-teaches-code-sketches`, {
+      const response = await fetch(`${this.$config.strapiApi}/sarah-teaches-code-sketches`, {
         method: 'GET',
         headers: this.headers,
       }).then(this.checkStatus)

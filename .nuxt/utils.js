@@ -150,7 +150,7 @@ export async function setContext (app, context) {
       payload: context.payload,
       error: context.error,
       base: '/',
-      env: {"strapiApi":"http://proxy.sarahteachescode.art"}
+      env: {"HASURA_ENDPOINT":"https://merry-snipe-67.hasura.app/v1/graphql","STRAPI_ENDPOINT":"http://proxy.sarahteachescode.art","GOOGLE_API_KEY":"AIzaSyBeU9XhSnq4ChyYWWp9LkswwMg-d95uDK0","FB_API_KEY":"AIzaSyDmPodygivo0oaBAJ5VCE0u2dULgD633_o","FB_AUTH_DOMAIN":"sarah-teaches-code-art-46874.firebaseapp.com","FB_DATABASE_URL":"https://sarah-teaches-code-art-46874.firebaseio.com","FB_PROJECT_ID":"sarah-teaches-code-art-46874","FB_STORAGE_BUCKET":"sarah-teaches-code-art-46874.appspot.com","FB_MESSAGING_SENDER_ID":"167073825076","FB_APP_ID":"1:167073825076:web:bfa4900a96ee1e7a032561","GEOCODE_FUNCTION_URL":"https://us-central1-sarah-teaches-code-art-46874.cloudfunctions.net/geocodeAddressAndSave/"}
     }
     // Only set once
     if (!process.static && context.req) {

@@ -2,7 +2,12 @@
   <div class="layout-default">
     <header>
       <div class="container">
-        <h1><nuxt-link to="/">Sarah Teaches Code / Art / Whatever</nuxt-link></h1>
+        <div class="site-title">
+          <h1><nuxt-link to="/">Sarah Teaches Code / Art / Whatever</nuxt-link></h1>
+        </div>
+        <div class="site-nav">
+          <SiteNav />
+        </div>
       </div>
     </header>
     <main>
@@ -16,6 +21,14 @@
   </div>
 </template>
 
+<script>
+import SiteNav from '@/components/SiteNav.vue'
+export default {
+  components: {
+    SiteNav
+  }
+}
+</script>
 <style lang="scss">
 $spacer: 5px;
 
@@ -79,13 +92,39 @@ a {
   .container {
     padding: $spacer*4;
   }
+  
+  section {
+    margin-bottom: $spacer*4;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
 
 header {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .site-nav {
+      flex: 0 0 30%;
+    }
+  }
+
   h1 {
     margin: 0;
   } 
+
+  nav {
+    ul {
+      display: flex;
+      list-style: none;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
 }
 
 main {
@@ -126,14 +165,12 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
     align-items: flex-start;
     .index-section {
       // border: 5px solid white;
       background: rgba(238, 231, 154, 0.286);
       padding: $spacer*4;
-      & + .index-section {
-        margin-left: $spacer*4;
-      }
     }
     .welcome {
       flex: 0 0 15vw;
@@ -146,6 +183,45 @@ img.circle {
   transition: 1s ease clip-path;
   &:hover {
     clip-path: circle(100%);
+  }
+}
+
+form {
+  .form-row {
+    display: flex;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: $spacer*4;
+    background: white;
+    padding: $spacer;
+    label {
+      margin-top: $spacer*2;
+    }
+  }
+  input {
+    padding: $spacer*2;
+    border: 0;
+    border-radius: 0;
+    background: #eaeaea;
+    color: rgb(0,0,255);
+  }
+
+  button {
+    padding: $spacer*2;
+    height: 100%;
+    background: #fff;
+    color: #000;
+    border-radius: 0;
+    outline: none;
+    border: 0;
+    transition: 0.3s ease all;
+    &:hover:not(:disabled) {
+      cursor: pointer;
+      background: rgb(0,0,255);
+      color: white;
+    }
   }
 }
 

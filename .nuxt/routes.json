@@ -14,6 +14,20 @@
     "_name": "_4bcc20a8"
   },
   {
+    "name": "tuts-chartly",
+    "path": "/tuts/chartly",
+    "component": "/Users/sarah/Sites/netlify-experiment/pages/tuts/chartly.vue",
+    "chunkName": "pages/tuts/chartly",
+    "_name": "_1af32aea"
+  },
+  {
+    "name": "tuts-geocoding",
+    "path": "/tuts/geocoding",
+    "component": "/Users/sarah/Sites/netlify-experiment/pages/tuts/geocoding.vue",
+    "chunkName": "pages/tuts/geocoding",
+    "_name": "_c9021d8c"
+  },
+  {
     "name": "tuts-graphqulhasuranuxt",
     "path": "/tuts/graphqulhasuranuxt",
     "component": "/Users/sarah/Sites/netlify-experiment/pages/tuts/graphqulhasuranuxt.vue",
@@ -21,11 +35,11 @@
     "_name": "_787d6198"
   },
   {
-    "name": "tuts-gsap3express",
-    "path": "/tuts/gsap3express",
-    "component": "/Users/sarah/Sites/netlify-experiment/pages/tuts/gsap3express.vue",
-    "chunkName": "pages/tuts/gsap3express",
-    "_name": "_164bdbee"
+    "name": "tuts-gsapbasics",
+    "path": "/tuts/gsapbasics",
+    "component": "/Users/sarah/Sites/netlify-experiment/pages/tuts/gsapbasics.vue",
+    "chunkName": "pages/tuts/gsapbasics",
+    "_name": "_3be7359e"
   },
   {
     "name": "tuts-template",

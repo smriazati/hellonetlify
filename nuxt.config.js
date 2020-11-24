@@ -1,4 +1,4 @@
-
+require('dotenv').config()
 export default {
   /*
   ** Headers of the page
@@ -26,34 +26,57 @@ export default {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [`~/plugins/getGames.server.js`],
- /*
-  ** Nuxt.js dev-modules
-  */
+  plugins: [
+    `~/plugins/getGames.server.js`,
+    {
+      src: '~/plugins/geocoding.js',
+      ssr: true
+    },
+    '~/plugins/firebase.js',
+    '~/plugins/axios.js'
+  ],
+  /*
+   ** Nuxt.js dev-modules
+   */
   buildModules: [
   ],
   /*
   ** Nuxt.js modules
   */
- modules: ["@nuxtjs/apollo"],
- apollo: {
-  clientConfigs: {
-    default: {
-      httpEndpoint: process.env.HASURA_ENDPOINT
+  modules: [
+    "@nuxtjs/apollo",
+    '@nuxtjs/dotenv',
+    '@nuxtjs/axios',
+    '@nuxtjs/proxy'
+  ],
+  axios: {
+    proxy: true // Can be also an object with default options
+  },
+  proxy: {
+    '/api': { target: 'https://us-central1-sarah-teaches-code-art-46874.cloudfunctions.net/geocodeAddressAndSave', pathRewrite: {'^/api/': '/'} }
+  },
+  apollo: {
+    clientConfigs: {
+      default: {
+        httpEndpoint: process.env.HASURA_ENDPOINT
+      }
     }
-  }
-},
-env: {
-  strapiApi: process.env.STRAPI_ENDPOINT,
-},
- /*
-  ** Build configuration
-  */
+  },
+  publicRuntimeConfig: {
+    strapiApi: process.env.STRAPI_ENDPOINT,
+  },
+  privateRuntimeConfig: {
+    googleApiKey: process.env.GOOGLE_API_KEY,
+  },
+  /*
+   ** Build configuration
+   */
   build: {
     /*
     ** You can extend webpack config here
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
+      transpile: [/^vue2-google-maps($|\/)/]
     }
   }
 }
