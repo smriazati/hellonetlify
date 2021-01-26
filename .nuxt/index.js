@@ -13,12 +13,11 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_axios_462144aa from 'nuxt_plugin_axios_462144aa' // Source: ./axios.js (mode: 'all')
-import nuxt_plugin_apollomodule_5451c676 from 'nuxt_plugin_apollomodule_5451c676' // Source: ./apollo-module.js (mode: 'all')
+import nuxt_plugin_axios_75f76137 from 'nuxt_plugin_axios_75f76137' // Source: ./axios.js (mode: 'all')
+import nuxt_plugin_apollomodule_73fd0603 from 'nuxt_plugin_apollomodule_73fd0603' // Source: ./apollo-module.js (mode: 'all')
 import nuxt_plugin_getGamesserver_7baba4a7 from 'nuxt_plugin_getGamesserver_7baba4a7' // Source: ../plugins/getGames.server.js (mode: 'server')
-import nuxt_plugin_geocoding_2d2a86dc from 'nuxt_plugin_geocoding_2d2a86dc' // Source: ../plugins/geocoding.js (mode: 'all')
-import nuxt_plugin_firebase_34d6f55a from 'nuxt_plugin_firebase_34d6f55a' // Source: ../plugins/firebase.js (mode: 'all')
 import nuxt_plugin_axios_5659d192 from 'nuxt_plugin_axios_5659d192' // Source: ../plugins/axios.js (mode: 'all')
+import nuxt_plugin_vimeoplayer_0339f612 from 'nuxt_plugin_vimeoplayer_0339f612' // Source: ../plugins/vimeo-player.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -78,7 +77,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"sarahteachescode.art","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Sarah Riazati code experiments, tutorials, demos, and original contet"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
+    head: {"title":"sarah riazati CODE ART LABORATORY","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"sarah riazati CODE ART LABORATORY"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"script":[{"src":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Fgsap\u002F3.5.1\u002Fgsap.min.js"},{"src":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Fgsap\u002F3.5.1\u002FScrollTrigger.min.js"}],"style":[]},
 
     store,
     router,
@@ -207,28 +206,24 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_axios_462144aa === 'function') {
-    await nuxt_plugin_axios_462144aa(app.context, inject)
+  if (typeof nuxt_plugin_axios_75f76137 === 'function') {
+    await nuxt_plugin_axios_75f76137(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_apollomodule_5451c676 === 'function') {
-    await nuxt_plugin_apollomodule_5451c676(app.context, inject)
+  if (typeof nuxt_plugin_apollomodule_73fd0603 === 'function') {
+    await nuxt_plugin_apollomodule_73fd0603(app.context, inject)
   }
 
   if (process.server && typeof nuxt_plugin_getGamesserver_7baba4a7 === 'function') {
     await nuxt_plugin_getGamesserver_7baba4a7(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_geocoding_2d2a86dc === 'function') {
-    await nuxt_plugin_geocoding_2d2a86dc(app.context, inject)
-  }
-
-  if (typeof nuxt_plugin_firebase_34d6f55a === 'function') {
-    await nuxt_plugin_firebase_34d6f55a(app.context, inject)
-  }
-
   if (typeof nuxt_plugin_axios_5659d192 === 'function') {
     await nuxt_plugin_axios_5659d192(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_vimeoplayer_0339f612 === 'function') {
+    await nuxt_plugin_vimeoplayer_0339f612(app.context, inject)
   }
 
   // Lock enablePreview in context

@@ -3,14 +3,14 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _592b746c = () => interopDefault(import('../pages/learning.vue' /* webpackChunkName: "pages/learning" */))
-const _4bcc20a8 = () => interopDefault(import('../pages/sketches.vue' /* webpackChunkName: "pages/sketches" */))
-const _1af32aea = () => interopDefault(import('../pages/tuts/chartly.vue' /* webpackChunkName: "pages/tuts/chartly" */))
-const _c9021d8c = () => interopDefault(import('../pages/tuts/geocoding.vue' /* webpackChunkName: "pages/tuts/geocoding" */))
-const _787d6198 = () => interopDefault(import('../pages/tuts/graphqulhasuranuxt.vue' /* webpackChunkName: "pages/tuts/graphqulhasuranuxt" */))
-const _3be7359e = () => interopDefault(import('../pages/tuts/gsapbasics.vue' /* webpackChunkName: "pages/tuts/gsapbasics" */))
-const _702ea1ea = () => interopDefault(import('../pages/tuts/template.vue' /* webpackChunkName: "pages/tuts/template" */))
-const _7825e074 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _4ea5630c = () => interopDefault(import('../pages/experiments/20210108.vue' /* webpackChunkName: "pages/experiments/20210108" */))
+const _48268d96 = () => interopDefault(import('../pages/experiments/20210125.vue' /* webpackChunkName: "pages/experiments/20210125" */))
+const _480a5e94 = () => interopDefault(import('../pages/experiments/20210126.vue' /* webpackChunkName: "pages/experiments/20210126" */))
+const _3a9e6a77 = () => interopDefault(import('../pages/tuts/chartly.vue' /* webpackChunkName: "pages/tuts/chartly" */))
+const _647cd7eb = () => interopDefault(import('../pages/tuts/graphqulhasuranuxt.vue' /* webpackChunkName: "pages/tuts/graphqulhasuranuxt" */))
+const _3b64de84 = () => interopDefault(import('../pages/tuts/gsapbasics.vue' /* webpackChunkName: "pages/tuts/gsapbasics" */))
+const _c4b53dc4 = () => interopDefault(import('../pages/tuts/template.vue' /* webpackChunkName: "pages/tuts/template" */))
+const _43135587 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -29,36 +29,36 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/learning",
-    component: _592b746c,
-    name: "learning"
+    path: "/experiments/20210108",
+    component: _4ea5630c,
+    name: "experiments-20210108"
   }, {
-    path: "/sketches",
-    component: _4bcc20a8,
-    name: "sketches"
+    path: "/experiments/20210125",
+    component: _48268d96,
+    name: "experiments-20210125"
+  }, {
+    path: "/experiments/20210126",
+    component: _480a5e94,
+    name: "experiments-20210126"
   }, {
     path: "/tuts/chartly",
-    component: _1af32aea,
+    component: _3a9e6a77,
     name: "tuts-chartly"
   }, {
-    path: "/tuts/geocoding",
-    component: _c9021d8c,
-    name: "tuts-geocoding"
-  }, {
     path: "/tuts/graphqulhasuranuxt",
-    component: _787d6198,
+    component: _647cd7eb,
     name: "tuts-graphqulhasuranuxt"
   }, {
     path: "/tuts/gsapbasics",
-    component: _3be7359e,
+    component: _3b64de84,
     name: "tuts-gsapbasics"
   }, {
     path: "/tuts/template",
-    component: _702ea1ea,
+    component: _c4b53dc4,
     name: "tuts-template"
   }, {
     path: "/",
-    component: _7825e074,
+    component: _43135587,
     name: "index"
   }],
 

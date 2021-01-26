@@ -1,58 +1,58 @@
 [
   {
-    "name": "learning",
-    "path": "/learning",
-    "component": "/Users/sarah/Sites/netlify-experiment/pages/learning.vue",
-    "chunkName": "pages/learning",
-    "_name": "_592b746c"
+    "name": "experiments-20210108",
+    "path": "/experiments/20210108",
+    "component": "/Users/sarah/Sites/sarahteachescodeart/pages/experiments/20210108.vue",
+    "chunkName": "pages/experiments/20210108",
+    "_name": "_4ea5630c"
   },
   {
-    "name": "sketches",
-    "path": "/sketches",
-    "component": "/Users/sarah/Sites/netlify-experiment/pages/sketches.vue",
-    "chunkName": "pages/sketches",
-    "_name": "_4bcc20a8"
+    "name": "experiments-20210125",
+    "path": "/experiments/20210125",
+    "component": "/Users/sarah/Sites/sarahteachescodeart/pages/experiments/20210125.vue",
+    "chunkName": "pages/experiments/20210125",
+    "_name": "_48268d96"
+  },
+  {
+    "name": "experiments-20210126",
+    "path": "/experiments/20210126",
+    "component": "/Users/sarah/Sites/sarahteachescodeart/pages/experiments/20210126.vue",
+    "chunkName": "pages/experiments/20210126",
+    "_name": "_480a5e94"
   },
   {
     "name": "tuts-chartly",
     "path": "/tuts/chartly",
-    "component": "/Users/sarah/Sites/netlify-experiment/pages/tuts/chartly.vue",
+    "component": "/Users/sarah/Sites/sarahteachescodeart/pages/tuts/chartly.vue",
     "chunkName": "pages/tuts/chartly",
-    "_name": "_1af32aea"
-  },
-  {
-    "name": "tuts-geocoding",
-    "path": "/tuts/geocoding",
-    "component": "/Users/sarah/Sites/netlify-experiment/pages/tuts/geocoding.vue",
-    "chunkName": "pages/tuts/geocoding",
-    "_name": "_c9021d8c"
+    "_name": "_3a9e6a77"
   },
   {
     "name": "tuts-graphqulhasuranuxt",
     "path": "/tuts/graphqulhasuranuxt",
-    "component": "/Users/sarah/Sites/netlify-experiment/pages/tuts/graphqulhasuranuxt.vue",
+    "component": "/Users/sarah/Sites/sarahteachescodeart/pages/tuts/graphqulhasuranuxt.vue",
     "chunkName": "pages/tuts/graphqulhasuranuxt",
-    "_name": "_787d6198"
+    "_name": "_647cd7eb"
   },
   {
     "name": "tuts-gsapbasics",
     "path": "/tuts/gsapbasics",
-    "component": "/Users/sarah/Sites/netlify-experiment/pages/tuts/gsapbasics.vue",
+    "component": "/Users/sarah/Sites/sarahteachescodeart/pages/tuts/gsapbasics.vue",
     "chunkName": "pages/tuts/gsapbasics",
-    "_name": "_3be7359e"
+    "_name": "_3b64de84"
   },
   {
     "name": "tuts-template",
     "path": "/tuts/template",
-    "component": "/Users/sarah/Sites/netlify-experiment/pages/tuts/template.vue",
+    "component": "/Users/sarah/Sites/sarahteachescodeart/pages/tuts/template.vue",
     "chunkName": "pages/tuts/template",
-    "_name": "_702ea1ea"
+    "_name": "_c4b53dc4"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/sarah/Sites/netlify-experiment/pages/index.vue",
+    "component": "/Users/sarah/Sites/sarahteachescodeart/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_7825e074"
+    "_name": "_43135587"
   }
 ]

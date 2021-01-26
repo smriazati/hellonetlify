@@ -4,14 +4,22 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: 'sarahteachescode.art' || '',
+    title: 'sarah riazati CODE ART LABORATORY' || '',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: 'sarah riazati CODE ART LABORATORY' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      {
+          src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js'
+      },
+      {
+          src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js'
+      }
     ]
   },
   /*
@@ -28,7 +36,8 @@ export default {
   */
   plugins: [
     `~/plugins/getGames.server.js`,
-    '~/plugins/axios.js'
+    '~/plugins/axios.js',
+    '~/plugins/vimeo-player.js'
   ],
   /*
    ** Nuxt.js dev-modules
@@ -63,6 +72,9 @@ export default {
    ** Build configuration
    */
   build: {
+    vendor: [
+      'vue-vimeo-player'
+    ],
     /*
     ** You can extend webpack config here
     */
