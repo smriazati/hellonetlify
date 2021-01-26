@@ -2,17 +2,18 @@
   <div class="home page-wrapper">
     <div>
       <h2>experiments</h2>
-      <RouteLister routeName="experiments-"/>
+      <ListRoutes routeName="experiments-"/>
     </div>
   </div>
 </template>
 
 <script>
-import RouteLister from '@/components/RouteLister.vue'
+import ListRoutes from '@/components/ListRoutes.vue'
+
 export default {
   layout: 'landing-layout',
   components: {
-    RouteLister
+    ListRoutes
   }
   
 }
