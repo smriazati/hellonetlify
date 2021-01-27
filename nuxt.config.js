@@ -3,6 +3,7 @@ export default {
   /*
   ** Headers of the page
   */
+   target: 'static',
   head: {
     title: 'sarah riazati CODE ART LABORATORY' || '',
     meta: [

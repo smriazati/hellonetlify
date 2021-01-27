@@ -21,6 +21,13 @@
     "_name": "_480a5e94"
   },
   {
+    "name": "experiments-20210126b",
+    "path": "/experiments/20210126b",
+    "component": "/Users/sarah/Sites/sarahteachescodeart/pages/experiments/20210126b.vue",
+    "chunkName": "pages/experiments/20210126b",
+    "_name": "_b3c950c8"
+  },
+  {
     "name": "tuts-chartly",
     "path": "/tuts/chartly",
     "component": "/Users/sarah/Sites/sarahteachescodeart/pages/tuts/chartly.vue",

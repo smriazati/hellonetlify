@@ -6,6 +6,7 @@ import scrollBehavior from './router.scrollBehavior.js'
 const _4ea5630c = () => interopDefault(import('../pages/experiments/20210108.vue' /* webpackChunkName: "pages/experiments/20210108" */))
 const _48268d96 = () => interopDefault(import('../pages/experiments/20210125.vue' /* webpackChunkName: "pages/experiments/20210125" */))
 const _480a5e94 = () => interopDefault(import('../pages/experiments/20210126.vue' /* webpackChunkName: "pages/experiments/20210126" */))
+const _b3c950c8 = () => interopDefault(import('../pages/experiments/20210126b.vue' /* webpackChunkName: "pages/experiments/20210126b" */))
 const _3a9e6a77 = () => interopDefault(import('../pages/tuts/chartly.vue' /* webpackChunkName: "pages/tuts/chartly" */))
 const _647cd7eb = () => interopDefault(import('../pages/tuts/graphqulhasuranuxt.vue' /* webpackChunkName: "pages/tuts/graphqulhasuranuxt" */))
 const _3b64de84 = () => interopDefault(import('../pages/tuts/gsapbasics.vue' /* webpackChunkName: "pages/tuts/gsapbasics" */))
@@ -40,6 +41,10 @@ export const routerOptions = {
     path: "/experiments/20210126",
     component: _480a5e94,
     name: "experiments-20210126"
+  }, {
+    path: "/experiments/20210126b",
+    component: _b3c950c8,
+    name: "experiments-20210126b"
   }, {
     path: "/tuts/chartly",
     component: _3a9e6a77,

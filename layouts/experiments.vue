@@ -19,4 +19,8 @@ nav {
   z-index: 999;
 }
 
+.wrapper {
+  padding-top: 30px;
+}
+
 </style>
