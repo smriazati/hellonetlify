@@ -3,7 +3,7 @@ export default {
   /*
   ** Headers of the page
   */
-   target: 'static',
+  target: 'static',
   head: {
     title: 'sarah riazati CODE ART LABORATORY' || '',
     meta: [
@@ -16,16 +16,17 @@ export default {
     ],
     script: [
       {
-          src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js'
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js'
       },
       {
-          src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js'
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js'
       }
     ]
   },
   /*
   ** Customize the progress-bar color
   */
+  components: true,
   loading: { color: '#fff' },
   /*
   ** Global CSS
@@ -38,7 +39,7 @@ export default {
   plugins: [
     `~/plugins/getGames.server.js`,
     '~/plugins/axios.js',
-    '~/plugins/vimeo-player.js'
+    { src: '@/plugins/vimeo-player.js', ssr: false }
   ],
   /*
    ** Nuxt.js dev-modules

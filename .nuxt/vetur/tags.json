@@ -1,0 +1,38 @@
+{
+  "AppGame": {
+    "description": "Auto imported from components/AppGame.vue"
+  },
+  "LazyAppGame": {
+    "description": "Auto imported from components/AppGame.vue"
+  },
+  "ImageFader": {
+    "description": "Auto imported from components/ImageFader.vue"
+  },
+  "LazyImageFader": {
+    "description": "Auto imported from components/ImageFader.vue"
+  },
+  "ListRoutes": {
+    "description": "Auto imported from components/ListRoutes.vue"
+  },
+  "LazyListRoutes": {
+    "description": "Auto imported from components/ListRoutes.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "LazyLogo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "SiteNav": {
+    "description": "Auto imported from components/SiteNav.vue"
+  },
+  "LazySiteNav": {
+    "description": "Auto imported from components/SiteNav.vue"
+  },
+  "BarChart": {
+    "description": "Auto imported from components/barChart.vue"
+  },
+  "LazyBarChart": {
+    "description": "Auto imported from components/barChart.vue"
+  }
+}

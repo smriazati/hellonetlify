@@ -3,63 +3,72 @@
     "name": "experiments-20210108",
     "path": "/experiments/20210108",
     "component": "/Users/sarah/Sites/sarahteachescodeart/pages/experiments/20210108.vue",
-    "chunkName": "pages/experiments/20210108",
-    "_name": "_4ea5630c"
+    "chunkName": "pages/experiments/20210108"
   },
   {
     "name": "experiments-20210125",
     "path": "/experiments/20210125",
     "component": "/Users/sarah/Sites/sarahteachescodeart/pages/experiments/20210125.vue",
-    "chunkName": "pages/experiments/20210125",
-    "_name": "_48268d96"
+    "chunkName": "pages/experiments/20210125"
   },
   {
     "name": "experiments-20210126",
     "path": "/experiments/20210126",
     "component": "/Users/sarah/Sites/sarahteachescodeart/pages/experiments/20210126.vue",
-    "chunkName": "pages/experiments/20210126",
-    "_name": "_480a5e94"
+    "chunkName": "pages/experiments/20210126"
   },
   {
     "name": "experiments-20210126b",
     "path": "/experiments/20210126b",
     "component": "/Users/sarah/Sites/sarahteachescodeart/pages/experiments/20210126b.vue",
-    "chunkName": "pages/experiments/20210126b",
-    "_name": "_b3c950c8"
+    "chunkName": "pages/experiments/20210126b"
+  },
+  {
+    "name": "experiments-20210211",
+    "path": "/experiments/20210211",
+    "component": "/Users/sarah/Sites/sarahteachescodeart/pages/experiments/20210211.vue",
+    "chunkName": "pages/experiments/20210211"
+  },
+  {
+    "name": "experiments-20210211b",
+    "path": "/experiments/20210211b",
+    "component": "/Users/sarah/Sites/sarahteachescodeart/pages/experiments/20210211b.vue",
+    "chunkName": "pages/experiments/20210211b"
+  },
+  {
+    "name": "experiments-20210406",
+    "path": "/experiments/20210406",
+    "component": "/Users/sarah/Sites/sarahteachescodeart/pages/experiments/20210406.vue",
+    "chunkName": "pages/experiments/20210406"
   },
   {
     "name": "tuts-chartly",
     "path": "/tuts/chartly",
     "component": "/Users/sarah/Sites/sarahteachescodeart/pages/tuts/chartly.vue",
-    "chunkName": "pages/tuts/chartly",
-    "_name": "_3a9e6a77"
+    "chunkName": "pages/tuts/chartly"
   },
   {
     "name": "tuts-graphqulhasuranuxt",
     "path": "/tuts/graphqulhasuranuxt",
     "component": "/Users/sarah/Sites/sarahteachescodeart/pages/tuts/graphqulhasuranuxt.vue",
-    "chunkName": "pages/tuts/graphqulhasuranuxt",
-    "_name": "_647cd7eb"
+    "chunkName": "pages/tuts/graphqulhasuranuxt"
   },
   {
     "name": "tuts-gsapbasics",
     "path": "/tuts/gsapbasics",
     "component": "/Users/sarah/Sites/sarahteachescodeart/pages/tuts/gsapbasics.vue",
-    "chunkName": "pages/tuts/gsapbasics",
-    "_name": "_3b64de84"
+    "chunkName": "pages/tuts/gsapbasics"
   },
   {
     "name": "tuts-template",
     "path": "/tuts/template",
     "component": "/Users/sarah/Sites/sarahteachescodeart/pages/tuts/template.vue",
-    "chunkName": "pages/tuts/template",
-    "_name": "_c4b53dc4"
+    "chunkName": "pages/tuts/template"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/sarah/Sites/sarahteachescodeart/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_43135587"
+    "chunkName": "pages/index"
   }
 ]

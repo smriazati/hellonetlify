@@ -13,11 +13,12 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
+import nuxt_plugin_plugin_7ccfe6be from 'nuxt_plugin_plugin_7ccfe6be' // Source: ./components/plugin.js (mode: 'all')
 import nuxt_plugin_axios_75f76137 from 'nuxt_plugin_axios_75f76137' // Source: ./axios.js (mode: 'all')
 import nuxt_plugin_apollomodule_73fd0603 from 'nuxt_plugin_apollomodule_73fd0603' // Source: ./apollo-module.js (mode: 'all')
 import nuxt_plugin_getGamesserver_7baba4a7 from 'nuxt_plugin_getGamesserver_7baba4a7' // Source: ../plugins/getGames.server.js (mode: 'server')
 import nuxt_plugin_axios_5659d192 from 'nuxt_plugin_axios_5659d192' // Source: ../plugins/axios.js (mode: 'all')
-import nuxt_plugin_vimeoplayer_0339f612 from 'nuxt_plugin_vimeoplayer_0339f612' // Source: ../plugins/vimeo-player.js (mode: 'all')
+import nuxt_plugin_vimeoplayer_0a9f428e from 'nuxt_plugin_vimeoplayer_0a9f428e' // Source: ../plugins/vimeo-player.js (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -206,6 +207,10 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
+  if (typeof nuxt_plugin_plugin_7ccfe6be === 'function') {
+    await nuxt_plugin_plugin_7ccfe6be(app.context, inject)
+  }
+
   if (typeof nuxt_plugin_axios_75f76137 === 'function') {
     await nuxt_plugin_axios_75f76137(app.context, inject)
   }
@@ -222,8 +227,8 @@ async function createApp(ssrContext, config = {}) {
     await nuxt_plugin_axios_5659d192(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_vimeoplayer_0339f612 === 'function') {
-    await nuxt_plugin_vimeoplayer_0339f612(app.context, inject)
+  if (process.client && typeof nuxt_plugin_vimeoplayer_0a9f428e === 'function') {
+    await nuxt_plugin_vimeoplayer_0a9f428e(app.context, inject)
   }
 
   // Lock enablePreview in context
